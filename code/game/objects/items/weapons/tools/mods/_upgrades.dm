@@ -26,6 +26,9 @@
 	//Actual effects of upgrades
 	var/list/upgrades = list() //variable name(string) -> num
 
+	//If you want to be able to apply more then one of those to tool. Originally was meant for art project only.
+	var/stackable = FALSE
+
 /datum/component/item_upgrade/Initialize()
 	RegisterSignal(parent, COMSIG_IATTACK, .proc/attempt_install)
 	RegisterSignal(parent, COMSIG_EXAMINE, .proc/on_examine)
@@ -93,9 +96,9 @@
 			if(T.cell)
 				to_chat(user, SPAN_WARNING("Remove the cell from the tool first!"))
 				return FALSE
-		//No using multiples of the same upgrade
+		//No using multiples of the same upgrade, unless stackable
 		for (var/obj/item/I in T.item_upgrades)
-			if (I.type == parent.type)
+			if (I.type == parent.type  && !stackable)
 				to_chat(user, SPAN_WARNING("An upgrade of this type is already installed!"))
 				return FALSE
 
