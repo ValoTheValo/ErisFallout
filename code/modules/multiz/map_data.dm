@@ -355,15 +355,3 @@ ADMIN_VERB_ADD(/client/proc/test_MD, R_DEBUG, null)
 
 /obj/map_data/asteroid/custom_z_name(z_level)
 	return "Asteroid [z_level]"
-
-//testing shit//
-
-/obj/map_data/planetx_s
-	name = "Planetx Surface"
-	is_station_level = TRUE
-	is_player_level = TRUE
-	is_contact_level = TRUE
-	is_accessable_level = FALSE
-	is_sealed = TRUE
-	generate_asteroid = FALSE
-	height = 1

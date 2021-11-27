@@ -18120,6 +18120,11 @@
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/eris/security/barracks)
+"aSQ" = (
+/obj/item/stool,
+/obj/landmark/join/start/ihoper,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/eris/security/barracks)
 "aSR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/steel/gray_perforated,
@@ -66397,6 +66402,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/landmark/join/start/captain,
 /turf/simulated/floor/carpet/bcarpet,
 /area/eris/command/meeting_room)
 "dej" = (
@@ -66488,6 +66494,13 @@
 "dew" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/donut,
+/turf/simulated/floor/carpet/bcarpet,
+/area/eris/command/meeting_room)
+"dex" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 8
+	},
+/obj/landmark/join/start/ihc,
 /turf/simulated/floor/carpet/bcarpet,
 /area/eris/command/meeting_room)
 "dey" = (
@@ -170042,10 +170055,10 @@ aag
 aaf
 aRF
 aSE
-aTc
+aSQ
 bii
 aUf
-aTc
+aSQ
 aSE
 aRP
 aaf
@@ -170244,10 +170257,10 @@ aaa
 aaf
 aRG
 aSE
-aTc
+aSQ
 aTn
 aUf
-aTc
+aSQ
 aSE
 aRP
 aaf
@@ -170446,10 +170459,10 @@ aaa
 aaf
 aRP
 aSE
-aTc
+aSQ
 aTr
 aUg
-aTc
+aSQ
 aSE
 aRP
 aaf
@@ -246810,7 +246823,7 @@ ddm
 cgc
 ddN
 deh
-dfH
+dex
 deT
 dfp
 dfH
