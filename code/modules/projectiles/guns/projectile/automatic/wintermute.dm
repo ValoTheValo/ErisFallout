@@ -54,3 +54,24 @@
 /obj/item/gun/projectile/automatic/wintermute/Initialize()
 	. = ..()
 	update_icon()
+
+/obj/item/gun/projectile/automatic/wintermute/solmarine
+	name = "\"Solarian\" carbine"
+	desc = "An ancient looking rifle found commonly in the Ironhammers's old military stockpiles. Reliable but heavily dated. \
+		 It appears to have been converted at some point to chamber in .25, possibly having taken different rounds at some point."
+	icon = 'icons/obj/guns/projectile/solmarine.dmi'
+	icon_state = "solmarine"
+	item_state = "solmarine"
+	matter = list(MATERIAL_PLASTEEL = 10, MATERIAL_PLASTIC = 6)
+	mag_well = MAG_WELL_RIFLE
+	magazine_type = /obj/item/ammo_magazine/srifle
+	caliber = CAL_SRIFLE
+	price_tag = 1000
+	damage_multiplier = 1.0
+	penetration_multiplier = 1.2
+	recoil_buildup = 8
+	one_hand_penalty = 25
+	init_firemodes = list(
+		SEMI_AUTO_NODELAY,
+		BURST_3_ROUND
+		)
