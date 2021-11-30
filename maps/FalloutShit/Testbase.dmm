@@ -1,28 +1,42 @@
 "a" = (/turf/simulated/floor/dirt,/area/space)
 "c" = (/obj/structure/window/reinforced,/obj/machinery/chem_master,/turf/simulated/floor/tiled/steel,/area/space)
 "d" = (/obj/machinery/door/airlock/multi_tile/glass,/turf/simulated/floor/tiled/steel,/area/space)
+"e" = (/obj/structure/closet/secure_closet/reinforced/quartermaster,/obj/item/storage/pouch/gun_part,/turf/simulated/floor/wood,/area/space)
 "f" = (/obj/effect/floor_decal/fact_plaque/med2,/turf/simulated/floor/tiled/steel,/area/space)
+"g" = (/obj/machinery/door/airlock/glass_mining{name = "Cargo Office"; req_access = list(50)},/turf/simulated/floor/wood,/area/space)
 "h" = (/obj/machinery/door/airlock/glass_medical{id_tag = "MedbayFoyer"; name = "Medbay"; req_access = newlist()},/turf/simulated/floor/tiled/steel,/area/space)
+"i" = (/obj/effect/window_lwall_spawn/smartspawn,/turf/simulated/floor/wood,/area/space)
 "j" = (/turf/simulated/wall,/area/space)
 "k" = (/obj/structure/window/reinforced{dir = 4},/obj/structure/mirror{pixel_y = 27},/obj/structure/sink{pixel_y = 19},/turf/simulated/floor/tiled/steel,/area/space)
 "l" = (/obj/structure/closet/crate/germancrate,/turf/simulated/floor/tiled/steel,/area/space)
+"m" = (/obj/machinery/door/airlock/multi_tile/metal{dir = 2},/turf/simulated/floor/wood,/area/space)
 "n" = (/obj/machinery/chemical_dispenser,/turf/simulated/floor/tiled/steel,/area/space)
 "o" = (/obj/structure/bed/chair/office/dark,/turf/simulated/floor/tiled/steel,/area/space)
+"p" = (/obj/structure/bed/chair/custom/onestar/red{dir = 8},/turf/simulated/floor/wood,/area/space)
+"q" = (/obj/machinery/craftingstation,/turf/simulated/floor/wood,/area/space)
+"r" = (/obj/structure/table/rack,/obj/item/reagent_containers/syringe/stim/steady{pixel_x = -5},/obj/item/reagent_containers/syringe/stim/steady,/obj/item/reagent_containers/syringe/drugs{pixel_x = 6},/turf/simulated/floor/wood,/area/space)
 "s" = (/obj/structure/bed/roller,/turf/simulated/floor/tiled/steel,/area/space)
 "t" = (/turf/simulated/floor/tiled/steel,/area/space)
 "v" = (/obj/machinery/door/window/brigdoor/southleft{name = "reception door"; req_access = list(5)},/turf/simulated/floor/tiled/steel,/area/space)
 "w" = (/obj/effect/floor_decal/fact_plaque/med1,/turf/simulated/floor/tiled/steel,/area/space)
+"y" = (/turf/simulated/wall/untinted/onestar,/area/space)
 "z" = (/obj/structure/bed/chair/comfy/black{dir = 1},/turf/simulated/floor/tiled/steel,/area/space)
 "A" = (/obj/structure/medical_stand,/turf/simulated/floor/tiled/steel,/area/space)
+"D" = (/obj/machinery/autolathe/loaded,/turf/simulated/floor/wood,/area/space)
 "E" = (/obj/structure/window/reinforced,/turf/simulated/floor/tiled/steel,/area/space)
+"G" = (/obj/structure/table/rack,/turf/simulated/floor/wood,/area/space)
 "I" = (/obj/structure/table/reinforced,/obj/machinery/chem_heater,/turf/simulated/floor/tiled/steel,/area/space)
+"J" = (/obj/structure/table/onestar,/turf/simulated/floor/wood,/area/space)
 "K" = (/obj/effect/window_lwall_spawn,/turf/simulated/floor/dirt,/area/space)
+"L" = (/obj/structure/bed/padded,/obj/item/bedsheet/brown,/turf/simulated/floor/wood,/area/space)
+"M" = (/turf/simulated/floor/wood,/area/space)
 "N" = (/obj/structure/window/reinforced,/obj/structure/table/reinforced,/turf/simulated/floor/tiled/steel,/area/space)
 "O" = (/obj/effect/floor_decal/fact_plaque/med4,/turf/simulated/floor/tiled/steel,/area/space)
 "P" = (/obj/machinery/optable,/turf/simulated/floor/tiled/steel,/area/space)
 "Q" = (/obj/structure/bed/padded,/obj/item/bedsheet/medical,/turf/simulated/floor/tiled/steel,/area/space)
 "R" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled/steel,/area/space)
 "T" = (/obj/structure/table/reinforced,/obj/item/reagent_containers/glass/bottle/resuscitator,/turf/simulated/floor/tiled/steel,/area/space)
+"U" = (/obj/machinery/door/airlock/command{name = "Guild Merchant's Quarters"; req_access = list(41)},/turf/simulated/floor/wood,/area/space)
 "V" = (/obj/structure/closet/secure_closet/reinforced/CMO,/turf/simulated/floor/tiled/steel,/area/space)
 "W" = (/obj/effect/floor_decal/fact_plaque/med3,/turf/simulated/floor/tiled/steel,/area/space)
 "X" = (/turf/space,/area/space)
@@ -63,15 +77,15 @@ aaaaaaaaaaaaaaajQtttwftttsjaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaajQtttWOtttAjaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaajjKKYdtYKKjjaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaayyyyyyyyyyyyyaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaayGGMiGMMGyeLyaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaayMMMiGMMGyMMyaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaayGGMiGMMryyUyaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMMMMiGMGyyMMyaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamMMMJpMGyqMMyaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaayMMMiGMGyDMMyaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaayGGMgMMMgMMMyaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaayyyyyyyyyyyyyaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
