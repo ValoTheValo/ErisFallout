@@ -34,4 +34,4 @@
 	icon_base_override = "woodenwall_"
 
 /turf/simulated/wall/untinted/wooden/New(var/newloc)
-	..(newloc, MATERIAL_STONE)
+	..(newloc, MATERIAL_SANDSTONE)
