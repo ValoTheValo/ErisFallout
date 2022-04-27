@@ -63,6 +63,22 @@
 	flash_protection = FLASH_PROTECTION_MAJOR
 	price_tag = 500
 
+/obj/item/clothing/head/armor/helmet/ncr/trooperhelm
+	name = "NCR Trooper Helmet"
+	desc = "Standard Issue Helmet for an NCR trooper"
+	icon_state = "trooperhelm"
+	body_parts_covered = HEAD | EARS
+	armor = list(
+		melee = 50,
+		bullet = 50,
+		energy = 50,
+		bomb = 25,
+		bio = 0,
+		rad = 0
+	)
+	price_tag = 500
+
+
 /obj/item/clothing/head/armor/helmet/dermal
 	name = "Dermal Armour Patch"
 	desc = "You're not quite sure how you manage to take it on and off, but it implants nicely in your head."
