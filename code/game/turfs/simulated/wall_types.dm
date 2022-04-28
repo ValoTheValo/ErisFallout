@@ -131,3 +131,17 @@
 
 /turf/simulated/wall/untinted/onestar_reinforced/New(var/newloc)
 	..(newloc, MATERIAL_STEEL,MATERIAL_STEEL)
+
+/turf/simulated/wall/untinted/wooden
+	icon_state = "woodenwall"
+	icon_base_override = "woodenwall"
+
+/turf/simulated/wall/untinted/wooden/New(var/newloc)
+	..(newloc, MATERIAL_WOOD)
+
+/turf/simulated/wall/untinted/stone
+	icon_state = "stonewall_"
+	icon_base_override = "stonewall_"
+
+/turf/simulated/wall/untinted/stone/New(var/newloc)
+	..(newloc, MATERIAL_SANDSTONE)
