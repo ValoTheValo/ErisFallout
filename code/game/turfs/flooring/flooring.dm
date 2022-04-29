@@ -639,6 +639,12 @@ var/list/flooring_types
 	smooth_nothing = TRUE
 	flags = TURF_CAN_BREAK | TURF_CAN_BURN | TURF_IS_FRAGILE | TURF_REMOVE_SCREWDRIVER | TURF_HIDES_THINGS
 
+/decl/flooring/wood/wild4
+	icon_base = "wooden_floor_s4"
+
+/decl/flooring/wood/wild5
+	icon_base = "wooden_floor_s5"
+
 /decl/flooring/reinforced
 	name = "reinforced floor"
 	desc = "Heavily reinforced with steel rods."
@@ -707,3 +713,66 @@ var/list/flooring_types
 	name = "floor"
 	icon_base = "derelict4"
 	build_type = /obj/item/stack/tile/derelict/white_big_edges
+
+/*Dirt*/
+
+/decl/flooring/dirt
+	name = "dirt"
+	icon = 'icons/turf/flooring/dirt.dmi'
+	icon_base = "dirt"
+	build_type = null
+	footstep_sound = "gravel"
+	resistance = RESISTANCE_TOUGH
+	health = 9999999
+
+/decl/flooring/dirt/dark
+	icon_base = "dirtnewdark"
+
+
+/decl/flooring/dirt/flood
+	icon_base = "flood_dirt"
+
+/decl/flooring/dirt/dust
+	icon_base = "dust"
+
+
+/decl/flooring/dirt/mud
+	icon_base = "mud_dark"
+
+/decl/flooring/dirt/mud/light
+	icon_base = "mud_light"
+
+/decl/flooring/grass2
+	name = "grass"
+	icon = 'icons/turf/flooring/grass.dmi'
+	build_type = null
+	footstep_sound = "grass"
+	resistance = RESISTANCE_TOUGH
+	plating_type = /decl/flooring/dirt
+
+/decl/flooring/grass2/jungle
+	icon_base = "grass_jungle"
+
+/decl/flooring/grass2/dry
+	icon_base = "grass_dry"
+
+/decl/flooring/grass2/colonial1
+	icon_base = "cmgrass1"
+
+/decl/flooring/grass2/colonial2
+	icon_base = "cmgrass2"
+
+/decl/flooring/grass2/colonial3
+	icon_base = "cmgrass3"
+
+/decl/flooring/grass2/colonialjungle1
+	icon_base = "junglegrass1"
+
+/decl/flooring/grass2/colonialjungle2
+	icon_base = "junglegrass2"
+
+/decl/flooring/grass2/colonialjungle3
+	icon_base = "junglegrass3"
+
+/decl/flooring/grass2/colonialjungle4
+	icon_base = "junglegrass4"
