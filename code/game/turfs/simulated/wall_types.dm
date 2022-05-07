@@ -132,6 +132,7 @@
 /turf/simulated/wall/untinted/onestar_reinforced/New(var/newloc)
 	..(newloc, MATERIAL_STEEL,MATERIAL_STEEL)
 
+//Fallout shit new walls located here//
 /turf/simulated/wall/untinted/wooden
 	icon_state = "woodenwall"
 	icon_base_override = "woodenwall"
@@ -145,3 +146,39 @@
 
 /turf/simulated/wall/untinted/stone/New(var/newloc)
 	..(newloc, MATERIAL_SANDSTONE)
+
+/turf/simulated/wall/untinted/adobe_standard
+	icon_state = "adobe_standard"
+	icon_base_override = "adobe_standard"
+
+/turf/simulated/wall/untinted/adobe_standard/New(var/newloc)
+	..(newloc, MATERIAL_SANDSTONE)
+
+/turf/simulated/wall/untinted/scrap_standard
+	icon_state = "scrap_standard"
+	icon_base_override = "scrap_standard"
+
+/turf/simulated/wall/untinted/scrap_standard/New(var/newloc)
+	..(newloc, MATERIAL_IRON)
+
+/turf/simulated/wall/untinted/log_standard
+	icon_state = "log_standard"
+	icon_base_override = "log_standard"
+
+/turf/simulated/wall/untinted/log_standard/New(var/newloc)
+	..(newloc, MATERIAL_WOOD)
+
+/turf/simulated/wall/untinted/steel_standard
+	icon_state = "steel_standard"
+	icon_base_override = "steel_standard"
+
+/turf/simulated/wall/untinted/steel_standard/New(var/newloc)
+	..(newloc, MATERIAL_IRON)
+
+
+/turf/simulated/wall/untinted/rust_standard
+	icon_state = "rust_standard"
+	icon_base_override = "rust_standard"
+
+/turf/simulated/wall/untinted/rust_standard/New(var/newloc)
+	..(newloc, MATERIAL_IRON)
